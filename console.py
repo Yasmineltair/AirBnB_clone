@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""Main console"""
 import cmd
 from models import storage
 from shlex import split
