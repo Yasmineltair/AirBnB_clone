@@ -18,3 +18,6 @@ class test_HBNBCommand(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+with patch('sys.stdout', new=StringIO()) as f:
+    HBNBCommand().onecmd("help show")
