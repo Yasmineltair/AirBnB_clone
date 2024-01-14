@@ -10,5 +10,3 @@ command interpreter:
  Do operations on objects (count, compute stats, etc…)
  Update attributes of an object
  Destroy an object
- Cmd.emptyline()
-Method called when an empty line is entered in response to the prompt. If this method is not overridden, it repeats the last nonempty command entered.
