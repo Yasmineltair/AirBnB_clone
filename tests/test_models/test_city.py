@@ -13,7 +13,7 @@ class test_city(unittest.TestCase):
         self.assertEqual(str, type(City.state_id))
 
     def test_name(self):
-        """ test name"""
+        """ test name attribute"""
         self.assertEqual(str, type(City.name))
 
 
