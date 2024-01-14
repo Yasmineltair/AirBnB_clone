@@ -12,8 +12,8 @@ class BaseModel:
     def __init__(self, *args, **kwargs):
         """ init class instances """
         self.id = str(uuid4())
-        self.created_at = datetime.today()
-        self.updated_at = datetime.today()
+        self.created_at = datetime.now()
+        self.updated_at = datetime.now()
         if kwargs:
             for key, val in kwargs.items():
                 if key == "created_at" or key == "updated_at":
