@@ -4,3 +4,6 @@ This is the first step towards building your first full web application: the Air
 command interpreter:
  It’s exactly the same as shell but limited to a specific use-case. In our case, we want to be able to manage the objects of our project
 
+ examples:
+ Create a new object (ex: a new User or a new Place)
+Retrieve an object from a file, a database etc…
